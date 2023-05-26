@@ -2,12 +2,25 @@
   padding-top: 70px;
   text-align: center;
   font-family: 'Monoton', cursive;
-  font-size: 40px;
+  font-size: 55px;
+  color: #c28653;
 }
 
 .subtitulo {
-  padding-top: 90px;
+  padding-top: 10px;
   text-align: center;
   font-family: 'Chau Philomene One', sans-serif;
   font-size: 20px;
+  color: #f6664d;
 }
+
+.forms {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  width: 160px;
+  height: 30px;
+  background-color: white;
+  color: black;
+}
+

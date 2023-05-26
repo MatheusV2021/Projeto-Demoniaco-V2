@@ -1,7 +1,23 @@
-<ion-header>
-</ion-header>
+<ion-header> </ion-header>
 
-<ion-content>
-  <ion-title class="titulo"> Login </ion-title>
+<ion-content padding class="background">
+  <h1 class="titulo">DISCO</h1>
   <h5 class="subtitulo">MAIOR ACERVO DE DISCOS ONLINE!</h5>
+
+  <form>
+    <ion-item lines="full">
+      <ion-label position="floating">Email</ion-label>
+      <ion-input type="text" required></ion-input>
+    </ion-item>
+    <ion-item lines="full">
+      <ion-label position="floating">Senha</ion-label>
+      <ion-input type="password" required></ion-input>
+    </ion-item>
+    <ion-row>
+      <ion-col>
+        <ion-button type="submit" color="danger" expand="block">Entrar</ion-button>
+        <a [routerLink]="['/forgot-password']" class="small-text">Esqueci a senha</a>
+      </ion-col>
+    </ion-row>
+  </form>
 </ion-content>
